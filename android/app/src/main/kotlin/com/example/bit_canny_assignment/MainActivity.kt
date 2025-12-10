@@ -1,0 +1,5 @@
+package com.example.bit_canny_assignment
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
