@@ -34,6 +34,12 @@ class SliderCardProvider extends StateNotifier<SliderCardState> {
         amount: '800',
         color: Colors.purpleAccent
       ),
+      SliderCardData(
+        imageUrl: 'assets/images/timer.png',
+        title: 'Timer',
+        amount: '1000',
+        color: Colors.deepOrangeAccent
+      ),
     ];
 
     state = state.copyWith(sliderCardData: sliderCardData);
