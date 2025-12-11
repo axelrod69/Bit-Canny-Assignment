@@ -27,7 +27,10 @@ class SliderPanel extends ConsumerWidget {
           children: [
             GestureDetector(
               onTap: () {
+                FocusScope.of(context).unfocus();
+
                 ref.read(sliderCardIndexProvider.notifier).state = index;
+
                 ref
                     .read(amountProvider.notifier)
                     .setFromSlider(
